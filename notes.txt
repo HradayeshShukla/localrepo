@@ -1,0 +1,21 @@
+ mkdir localrepo 
+ cd localrepo/
+ ls -lrth 
+ echo $(date) >> mySchedule 
+ cat mySchedule 
+ git init 
+ ls -lrtha
+ git add . 
+ git status 
+ cat mySchedule 
+ git commit -m "Tis is local repo"
+ git status 
+ git push 
+ pwd
+ git remote -v 
+ git remote add localrepo git@github.com:HradayeshShukla/localrepo.git 
+ git remote -v 
+ git push localrepo 
+ git push --set-upstream localrepo master 
+ history 
+
