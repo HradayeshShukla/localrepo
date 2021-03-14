@@ -7,3 +7,5 @@ Testing a code block
 **Bold Test**
 
 *Italic*
+
+## Heading 2
